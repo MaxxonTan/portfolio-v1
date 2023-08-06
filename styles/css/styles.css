@@ -106,5 +106,21 @@ body main {
   flex-direction: column;
   gap: 3rem;
 }
+body footer {
+  width: 100%;
+}
+body footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: end;
+}
+body footer ul a {
+  color: #9c9c9c;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=styles.css.map */
