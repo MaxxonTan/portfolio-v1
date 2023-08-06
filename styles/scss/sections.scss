@@ -6,13 +6,14 @@
 
   h6 {
     position: absolute;
-    top: 0.2rem;
-    left: -4.5rem;
+    top: 0.25rem;
+    left: -6rem;
 
-    width: 3rem;
+    width: 5rem;
 
     text-align: end;
 
+    font-size: 0.6rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
     color: variables.$secondary;
@@ -21,63 +22,74 @@
 
 .experience {
   .experience-entry {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-
     margin-bottom: 0.5rem;
 
-    header {
+    summary {
+      list-style-type: none;
+
+      header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.89rem;
+
+        cursor: pointer;
+
+        .index {
+          max-width: 0.8rem;
+          color: variables.$secondary;
+        }
+
+        .name {
+          font-size: 1rem;
+          font-weight: 400;
+        }
+
+        .position {
+          color: variables.$secondary;
+
+          margin-left: auto;
+        }
+      }
+    }
+
+    .expanded {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 0.89rem;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-top: 0.6rem;
 
-      cursor: pointer;
+      img {
+        width: 100%;
+        height: 8rem;
 
-      .index {
-        max-width: 0.8rem;
-        color: variables.$secondary;
+        object-fit: cover;
+        object-position: 50% 50%;
+
+        border-radius: 0.4rem;
       }
 
-      .name {
-        font-size: 1rem;
-        font-weight: 400;
+      hr {
+        border-color: variables.$secondary;
       }
 
-      .position {
-        color: variables.$secondary;
+      .tech-date-container {
+        display: flex;
+        justify-content: space-between;
 
-        margin-left: auto;
+        .tech-stack,
+        .date-range {
+          color: variables.$secondary;
+        }
+
+        .date-range > abbr {
+          text-decoration: none;
+        }
       }
-    }
 
-    img {
-      width: 100%;
-      height: 8rem;
-
-      object-fit: cover;
-      object-position: 50% 50%;
-
-      border-radius: 0.4rem;
-    }
-
-    hr {
-      border-color: variables.$secondary;
-    }
-
-    .tech-date-container {
-      display: flex;
-      justify-content: space-between;
-
-      .tech-stack,
-      .date-range {
-        color: variables.$secondary;
+      .experience-detail {
+        font-weight: 300;
       }
-    }
-
-    .experience-detail {
-      font-weight: 300;
     }
   }
 }

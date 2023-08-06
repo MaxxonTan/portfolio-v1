@@ -5,59 +5,69 @@
 .about h6,
 .experience h6 {
   position: absolute;
-  top: 0.2rem;
-  left: -4.5rem;
-  width: 3rem;
+  top: 0.25rem;
+  left: -6rem;
+  width: 5rem;
   text-align: end;
+  font-size: 0.6rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   color: #9c9c9c;
 }
 
 .experience .experience-entry {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
   margin-bottom: 0.5rem;
 }
-.experience .experience-entry header {
+.experience .experience-entry summary {
+  list-style-type: none;
+}
+.experience .experience-entry summary header {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.89rem;
   cursor: pointer;
 }
-.experience .experience-entry header .index {
+.experience .experience-entry summary header .index {
   max-width: 0.8rem;
   color: #9c9c9c;
 }
-.experience .experience-entry header .name {
+.experience .experience-entry summary header .name {
   font-size: 1rem;
   font-weight: 400;
 }
-.experience .experience-entry header .position {
+.experience .experience-entry summary header .position {
   color: #9c9c9c;
   margin-left: auto;
 }
-.experience .experience-entry img {
+.experience .experience-entry .expanded {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+.experience .experience-entry .expanded img {
   width: 100%;
   height: 8rem;
   object-fit: cover;
   object-position: 50% 50%;
   border-radius: 0.4rem;
 }
-.experience .experience-entry hr {
+.experience .experience-entry .expanded hr {
   border-color: #9c9c9c;
 }
-.experience .experience-entry .tech-date-container {
+.experience .experience-entry .expanded .tech-date-container {
   display: flex;
   justify-content: space-between;
 }
-.experience .experience-entry .tech-date-container .tech-stack,
-.experience .experience-entry .tech-date-container .date-range {
+.experience .experience-entry .expanded .tech-date-container .tech-stack,
+.experience .experience-entry .expanded .tech-date-container .date-range {
   color: #9c9c9c;
 }
-.experience .experience-entry .experience-detail {
+.experience .experience-entry .expanded .tech-date-container .date-range > abbr {
+  text-decoration: none;
+}
+.experience .experience-entry .expanded .experience-detail {
   font-weight: 300;
 }
 
