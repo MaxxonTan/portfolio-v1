@@ -1,0 +1,83 @@
+@use "variables";
+
+.about,
+.experience {
+  position: relative;
+
+  h6 {
+    position: absolute;
+    top: 0.2rem;
+    left: -4.5rem;
+
+    width: 3rem;
+
+    text-align: end;
+
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: variables.$secondary;
+  }
+}
+
+.experience {
+  .experience-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+    margin-bottom: 0.5rem;
+
+    header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.89rem;
+
+      cursor: pointer;
+
+      .index {
+        max-width: 0.8rem;
+        color: variables.$secondary;
+      }
+
+      .name {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+
+      .position {
+        color: variables.$secondary;
+
+        margin-left: auto;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 8rem;
+
+      object-fit: cover;
+      object-position: 50% 50%;
+
+      border-radius: 0.4rem;
+    }
+
+    hr {
+      border-color: variables.$secondary;
+    }
+
+    .tech-date-container {
+      display: flex;
+      justify-content: space-between;
+
+      .tech-stack,
+      .date-range {
+        color: variables.$secondary;
+      }
+    }
+
+    .experience-detail {
+      font-weight: 300;
+    }
+  }
+}
