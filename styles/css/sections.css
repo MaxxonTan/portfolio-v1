@@ -33,7 +33,7 @@
   color: #9c9c9c;
 }
 .experience .experience-entry summary header .name {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 .experience .experience-entry summary header .position {
@@ -69,6 +69,13 @@
 }
 .experience .experience-entry .expanded .experience-detail {
   font-weight: 300;
+}
+.experience .experience-entry .expanded .links {
+  display: flex;
+  gap: 0.5rem;
+}
+.experience .experience-entry .expanded .links a {
+  color: #9c9c9c;
 }
 
 /*# sourceMappingURL=sections.css.map */

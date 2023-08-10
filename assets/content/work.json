@@ -1,26 +1,6 @@
 [
   {
     "index": 0,
-    "name": "Popin Events Inc.",
-    "position": "Co-Founder / Software Engineer",
-    "photoPath": "../assets/media/popin.jpg",
-    "techStack": ["Next.js", "Firebase", "Capacitor.js"],
-    "startDate": "Jan 2022",
-    "endDate": "Dec 2022",
-    "details": [""],
-    "links": [
-      {
-        "title": "Live Site",
-        "href": "https://www.popin.ca/"
-      },
-      {
-        "title": "Landing Page",
-        "href": "https://www.about.popin.ca/"
-      }
-    ]
-  },
-  {
-    "index": 1,
     "name": "Ownit",
     "position": "Software Engineer Intern",
     "photoPath": "../assets/media/ownit.jpg",
@@ -28,8 +8,8 @@
     "startDate": "May 2022",
     "endDate": "Dec 2022",
     "details": [
-      "The first four months here I worked on a solo project which I had full ownership of and had to collaborate with stakeholders to develop requirements. The project was a serverless media management and optimization tool which allowed the product merchandising team to optimize images and videos for high-performance product landing pages. It was challenging since the backend were built on AWS (Lambda, S3, API Gateway) and I had no prior AWS experience. The backend part of the project was also built on AWS Serverless Application Model (SAM). I also built a frontend in React.js and embed it into an existing portal used internally by Ownit. Finally, I also maintained documentation throughout the process of building the project which includes design decisions, user flow diagram, etc.",
-      "The latter half of the internship I worked alongside of ex-Amazon engineers to develop a merchandising portal deployed on AWS, which was a lot closer to what a day-to-day of a software engineer looks like. I left the internship learning the startup world and the importance (and joy) of documentation."
+      "At Ownit, I led a solo project collaborating with stakeholders to create a serverless media management tool. This tool optimized images and videos for high-performance product pages, benefiting the product merchandising team. While challenging due to my lack of prior AWS experience, I successfully built the AWS backend (Lambda, S3, API Gateway) using Serverless Application Model. A frontend built with React.js for the tool was integrated into Ownit's internal portal. I also maintained documentation throughout the process of building the project which includes design decisions, user flow diagram, etc.",
+      "The latter half of the internship I collaborated with ex-Amazon engineers to build and deploy an AWS-based merchandising portal, gaining insight into software engineering in a startup environment and emphasizing the value of documentation."
     ],
     "links": [
       {
@@ -43,7 +23,7 @@
     ]
   },
   {
-    "index": 2,
+    "index": 1,
     "name": "PCL Constructions",
     "position": "Student Software Developer",
     "photoPath": "../assets/media/pcl.jpg",
@@ -58,8 +38,8 @@
     "startDate": "May 2023",
     "endDate": "Sept 2023",
     "details": [
-      "I got to work on several different apps across PCl's Job Site Suite, their job site management solution. I jumped between apps and took on tasks/features that required full-stack knowledge, it was also my first time using Angular.js ever so it was good learn another frontend framework. What I learned the most during my time here is defintely the backend side of things, which I was the area I was lacking the most coming in. Working on systems built on a monolithic and microservice architecture respectively, I got learn the differences between them. I even got to build a reporting microservice using gRPC from start to the finish myself, including designing the data model",
-      "Beyond coding, I also wrote a comprehensive developer's onboarding documentation containing development process, terminology definitions, local development setup, etc. I wrote this mainly for myself since I'm really good at forgetting stuff. I also learned the difference between how a large-sized company operates compared to a startup."
+      "At PCL Constructions, I contributed to various apps within the Job Site Suite, their job site management solution. I handled tasks across different apps, leveraging full-stack skills and adapting to Angular.js. I spent most of my time towards backend development, an area I lacked expertise in. I worked on both monolithic and microservice architectures, gaining insights into their distinctions. Notably, I independently built a reporting microservice using gRPC, from designing the data model to completion.",
+      "Aside from coding, I wrote a comprehensive developer onboarding guide encompassing development processes, terminology, and local setup, primarily for my reference. This experience also highlighted the operational disparities between large companies and startups."
     ],
     "links": [
       {

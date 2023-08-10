@@ -41,7 +41,7 @@
         }
 
         .name {
-          font-size: 1rem;
+          font-size: 0.9rem;
           font-weight: 400;
         }
 
@@ -89,6 +89,15 @@
 
       .experience-detail {
         font-weight: 300;
+      }
+
+      .links {
+        display: flex;
+        gap: 0.5rem;
+
+        a {
+          color: variables.$secondary;
+        }
       }
     }
   }
