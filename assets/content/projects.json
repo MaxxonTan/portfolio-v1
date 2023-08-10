@@ -1,0 +1,87 @@
+[
+  {
+    "index": 0,
+    "name": "Music Together",
+    "position": "Personal",
+    "photoPath": "../assets/media/musictogether.jpg",
+    "techStack": ["React.js", "Firebase", "Youtube Data API"],
+    "startDate": "June 2021",
+    "endDate": "Aug 2021",
+    "details": [
+      "Music Together is a basic music player with the ability to listen to music synchronously with other people. It's built with React.js for the frontend and Firebase for allowing synchronous listening. And for fetching music, I used Youtube's Data API. The way the room system is designed can be very much improved and basic accessibility is lacking (keyboard navigation, mobile responsiveness), but it was my first ever web project that I completed!"
+    ],
+    "links": [
+      {
+        "title": "Live Site",
+        "href": "https://maxxontan.github.io/music-together/"
+      },
+      {
+        "title": "Github",
+        "href": "https://github.com/MaxxonTan/music-together"
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "name": "Inedible In & Out",
+    "position": "Team",
+    "photoPath": "../assets/media/inandout.jpg",
+    "techStack": ["JavaScript", "HTML & CSS", "Chrome Extension API"],
+    "startDate": "Jan 2022",
+    "endDate": "Dec 2022",
+    "details": [
+      "In & Out is a chrome extension developer tool for helping web developers check whether a website is responsive by generating screenshots at 6 different zoom levels. This was developed for a hackathon project using Chrome's Extension API. We genuinely thought the idea would work, but the time constraint and my knowledge of web development back then proved the resulting app to be not so practical."
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "href": "https://github.com/MaxxonTan/InAndOut"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "QR Hunter",
+    "position": "Team",
+    "photoPath": "../assets/media/qrhunter.jpg",
+    "techStack": ["Java", "Firebase", "Android Studio"],
+    "startDate": "Jan 2023",
+    "endDate": "Apr 2023",
+    "details": [
+      "QR Hunter is an Android game Pokemon-Go for CMPUT301. This is a project-based course requiring teams to build an application according to the professor's requirement from scratch, including user interface and data model design. I was responsible for the majority of the user interface design (done with Figma), designing the app architecture and documentation (as shown in the README). It was interesting to see how design patterns that have been talked about in textbook work in action and how they affect developer productivity."
+    ],
+    "links": [
+      {
+        "title": "Github",
+        "href": "https://github.com/CMPUT301W23T14/QRHunter-App"
+      },
+      {
+        "title": "README",
+        "href": "https://github.com/CMPUT301W23T14/QRHunter-App/blob/main/README.md"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "Shortcard",
+    "position": "Personal",
+    "photoPath": "../assets/media/shortcard.jpg",
+    "techStack": ["Next.js 13", "Supabase", "Fabric.js"],
+    "startDate": "Feb 2023",
+    "endDate": "July 2023",
+    "details": [
+      "Shortcard is a web app built with Next.js 13 (App Router). This was my first time using React Server Components, so it took a while to get used to. I also used Fabric.js, a canvas library, for editing and rendering the canvas which I had a lot of trouble with. Especially when it comes to rendering the canvas and how it interacted with React's component lifecycle. For the backend, I originally planned to have a container hosted somewhere but I found Supabase's client to be sufficient enough. Something that was of priority for this project is also to make sure that users can view cards on both their phone and desktop, which was quite challenging since the cards's dimensions are fixed.",
+      "One mistake that I did when building this project was that I spent the majority of my time deciding rather than doing, whether its choosing the fonts, what tech stack, etc."
+    ],
+    "links": [
+      {
+        "title": "Live Site",
+        "href": "https://shortcard.vercel.app/"
+      },
+      {
+        "title": "Github",
+        "href": "https://github.com/MaxxonTan/Shortcard"
+      }
+    ]
+  }
+]
