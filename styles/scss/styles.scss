@@ -9,6 +9,9 @@
 }
 
 body {
+  height: 100vh;
+  max-width: 40rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +22,8 @@ body {
   background-color: variables.$background;
   color: variables.$primary;
 
-  padding: 6rem 20rem;
+  padding: 5rem 0rem;
+  margin: 0 auto;
 
   header,
   main,
@@ -56,6 +60,7 @@ body {
   }
 
   footer {
+    margin-top: auto;
     width: 100%;
 
     ul {
