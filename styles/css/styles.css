@@ -6,8 +6,8 @@
 .about h6,
 .experience h6 {
   position: absolute;
-  top: 0.25rem;
-  left: -6rem;
+  top: 0.2rem;
+  left: -7.5rem;
   width: 5rem;
   text-align: end;
   font-size: 0.6rem;
@@ -20,7 +20,7 @@
   margin-bottom: 0.5rem;
 }
 .experience .experience-entry summary {
-  list-style-type: none;
+  list-style-position: outside;
 }
 .experience .experience-entry summary header {
   display: flex;
