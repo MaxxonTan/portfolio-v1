@@ -1,5 +1,6 @@
-@use "variables";
-@use "sections";
+@use "variables" as *;
+@use "sections" as *;
+@use "media-queries" as *;
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
 
 * {
@@ -19,11 +20,15 @@ body {
 
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
-  background-color: variables.$background;
-  color: variables.$primary;
+  background-color: $background;
+  color: $primary;
 
   padding: 5rem 0rem;
   margin: 0 auto;
+
+  @include md {
+    padding: 5rem 3rem;
+  }
 
   header,
   main,
@@ -39,11 +44,11 @@ body {
     align-items: center;
 
     .name {
-      color: variables.$primary;
+      color: $primary;
     }
 
     .title {
-      color: variables.$secondary;
+      color: $secondary;
       font-weight: 300;
       font-size: 1.25rem;
     }
@@ -74,7 +79,7 @@ body {
       justify-content: end;
 
       a {
-        color: variables.$secondary;
+        color: $secondary;
       }
     }
   }

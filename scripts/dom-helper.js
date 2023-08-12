@@ -51,7 +51,7 @@ const generateExperienceArticle = (experience, index) => {
   techStack.className = "tech-stack";
   techStack.innerHTML = `<i>${experience.techStack.join(", ")}</i>`;
   const dateRange = document.createElement("p");
-  techStack.className = "date-range";
+  dateRange.className = "date-range";
   dateRange.innerHTML = `${experience.startDate} - ${experience.endDate}`;
   techDateContainer.append(techStack, dateRange);
   expandedDiv.appendChild(techDateContainer);
