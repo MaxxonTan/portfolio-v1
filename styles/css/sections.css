@@ -53,6 +53,19 @@
   text-align: right;
   margin-left: auto;
 }
+.experience .experience-entry[open] .expanded {
+  animation: sweep 0.3s ease-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .experience .experience-entry .expanded {
   display: flex;
   flex-direction: column;

@@ -66,6 +66,22 @@
       }
     }
 
+    // Details animation hack from https://stackoverflow.com/questions/38213329/how-to-add-css3-transition-with-html5-details-summary-tag-reveal
+    &[open] .expanded {
+      animation: sweep 0.3s ease-out;
+    }
+
+    @keyframes sweep {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     .expanded {
       display: flex;
       flex-direction: column;
