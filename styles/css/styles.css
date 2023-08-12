@@ -3,8 +3,8 @@
 .experience {
   position: relative;
 }
-.about h6,
-.experience h6 {
+.about h2,
+.experience h2 {
   position: absolute;
   top: 0.2rem;
   left: -7.5rem;
@@ -16,8 +16,8 @@
   color: #9c9c9c;
 }
 @media (max-width: 1024px) {
-  .about h6,
-  .experience h6 {
+  .about h2,
+  .experience h2 {
     position: relative;
     top: 0;
     left: 0;
