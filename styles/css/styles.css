@@ -116,7 +116,7 @@ body {
 }
 @media (max-width: 768px) {
   body {
-    padding: 3rem 3rem;
+    padding: 2rem 3rem;
   }
 }
 body a {
