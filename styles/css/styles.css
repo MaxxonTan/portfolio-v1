@@ -150,6 +150,7 @@ body .profile {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 body .profile .name {
   color: #f0f0f0;
