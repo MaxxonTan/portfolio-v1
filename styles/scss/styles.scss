@@ -10,7 +10,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 40rem;
 
   display: flex;
@@ -28,6 +28,15 @@ body {
 
   @include md {
     padding: 5rem 3rem;
+  }
+
+  a {
+    color: $secondary;
+
+    &:hover {
+      transition: color 0.2s ease-in;
+      color: $primary;
+    }
   }
 
   header,
@@ -77,10 +86,6 @@ body {
       flex-direction: row;
       gap: 1rem;
       justify-content: end;
-
-      a {
-        color: $secondary;
-      }
     }
   }
 }

@@ -93,9 +93,6 @@
   display: flex;
   gap: 0.5rem;
 }
-.experience .experience-entry .expanded .links a {
-  color: #9c9c9c;
-}
 
 * {
   margin: 0;
@@ -104,7 +101,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 40rem;
   display: flex;
   flex-direction: column;
@@ -121,6 +118,13 @@ body {
   body {
     padding: 5rem 3rem;
   }
+}
+body a {
+  color: #9c9c9c;
+}
+body a:hover {
+  transition: color 0.2s ease-in;
+  color: #f0f0f0;
 }
 body header,
 body main,
@@ -162,9 +166,6 @@ body footer ul {
   flex-direction: row;
   gap: 1rem;
   justify-content: end;
-}
-body footer ul a {
-  color: #9c9c9c;
 }
 
 /*# sourceMappingURL=styles.css.map */
