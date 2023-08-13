@@ -58,7 +58,7 @@ If there's one thing I learned from building this portfolio, it would be _Semant
 I also learned about how a lot of these tags are hard af to customise. Just look at [this tutorial](https://css-tricks.com/how-to-animate-the-details-element/) on how to animate the opening and closing animation for the `<detail>` element! I often have to resort to "tricks" in order to customise HTML elements.
 
 # References
-- [Semantics overview by MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)https://developer.mozilla.org/en-US/docs/Glossary/Semantics
-- [Web Accessibility also by MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)https://developer.mozilla.org/en-US/docs/Web/Accessibility
-- [SCSS Media Query Mixin by Necromancerx](https://github.com/Necromancerx/media-queries-scss-mixins)https://github.com/Necromancerx/media-queries-scss-mixins
+- [Semantics overview by MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+- [Web Accessibility also by MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
+- [SCSS Media Query Mixin by Necromancerx](https://github.com/Necromancerx/media-queries-scss-mixins)
 
