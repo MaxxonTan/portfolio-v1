@@ -54,17 +54,11 @@ const work = [
   {
     name: "Minoa",
     position: "Part Time Software Engineer",
-    photoPath: "../assets/media/pcl.jpg",
-    techStack: [
-      "React",
-      "Firebase",
-      "Google Cloud Platform",
-    ],
+    photoPath: "../assets/media/minoa.jpg",
+    techStack: ["React", "Firebase", "Google Cloud Platform"],
     startDate: "Sept 2023",
     endDate: "Present",
-    details: [
-      "In Progress...",
-    ],
+    details: ["In Progress..."],
     links: [
       {
         title: "LinkedIn",
