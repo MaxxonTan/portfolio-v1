@@ -39,7 +39,7 @@ const work = [
       "gRPC",
     ],
     startDate: "May 2023",
-    endDate: "Sept 2023",
+    endDate: "Aug 2023",
     details: [
       "At PCL Constructions, I contributed to various apps within the Job Site Suite, their job site management solution. I handled tasks across different apps, leveraging full-stack skills and adapting to Angular.js. I spent most of my time towards backend development, an area I lacked expertise in. I worked on both monolithic and microservice architectures, gaining insights into their distinctions. Notably, I independently built a reporting microservice using gRPC, from designing the data model to completion.",
       "Aside from coding, I wrote a comprehensive developer onboarding guide encompassing development processes, terminology, and local setup, primarily for my reference. This experience also highlighted the operational disparities between large companies and startups.",
@@ -48,6 +48,27 @@ const work = [
       {
         title: "LinkedIn",
         href: "https://www.linkedin.com/company/pcl-construction",
+      },
+    ],
+  },
+  {
+    name: "Minoa",
+    position: "Part Time Software Engineer",
+    photoPath: "../assets/media/pcl.jpg",
+    techStack: [
+      "React",
+      "Firebase",
+      "Google Cloud Platform",
+    ],
+    startDate: "Sept 2023",
+    endDate: "Present",
+    details: [
+      "In Progress...",
+    ],
+    links: [
+      {
+        title: "LinkedIn",
+        href: "https://www.linkedin.com/company/getminoa/",
       },
     ],
   },
