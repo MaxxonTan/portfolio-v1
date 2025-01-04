@@ -57,12 +57,27 @@ const work = [
     photoPath: "../assets/media/minoa.jpg",
     techStack: ["React", "Firebase", "Google Cloud Platform"],
     startDate: "Sept 2023",
-    endDate: "Present",
+    endDate: "Sept 2024",
     details: ["In Progress..."],
     links: [
       {
         title: "LinkedIn",
         href: "https://www.linkedin.com/company/getminoa/",
+      },
+    ],
+  },
+  {
+    name: "Motion",
+    position: "Software Developer",
+    photoPath: "../assets/media/motion.jpg",
+    techStack: ["React", "NestJS"],
+    startDate: "Jan 2024",
+    endDate: "Present",
+    details: ["In Progress..."],
+    links: [
+      {
+        title: "LinkedIn",
+        href: "https://www.linkedin.com/company/motionapp",
       },
     ],
   },
