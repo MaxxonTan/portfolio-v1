@@ -66,7 +66,7 @@ const work = [
       },
     ],
   },
-  {
+  /*{
     name: "Motion",
     position: "Software Developer",
     photoPath: "../assets/media/motion.jpg",
@@ -80,7 +80,7 @@ const work = [
         href: "https://www.linkedin.com/company/motionapp",
       },
     ],
-  },
+  },*/
 ];
 
 const projects = [
