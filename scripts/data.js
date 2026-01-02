@@ -58,7 +58,7 @@ const work = [
     techStack: ["React", "Firebase", "Google Cloud Platform"],
     startDate: "Sept 2023",
     endDate: "Sept 2024",
-    details: ["In Progress..."],
+    details: ["Built notifications service for sending email and Slack notifications on Google Cloud Function triggers. Also set up and wrote unit and End-to-End testing for core functionalities with Playwright and Jest, including integration with CI/CD pipeline."],
     links: [
       {
         title: "LinkedIn",
@@ -66,10 +66,10 @@ const work = [
       },
     ],
   },
-  /*{
+  {
     name: "Motion",
     position: "Software Developer",
-    photoPath: "../assets/media/motion.jpg",
+    photoPath: "../assets/media/motionapp_cover.jpg",
     techStack: ["React", "NestJS"],
     startDate: "Jan 2024",
     endDate: "Present",
@@ -80,7 +80,7 @@ const work = [
         href: "https://www.linkedin.com/company/motionapp",
       },
     ],
-  },*/
+  },
 ];
 
 const projects = [
